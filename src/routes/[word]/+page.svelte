@@ -2,11 +2,11 @@
 	<div class="flex gap-5">
 		<div class="basis-3/4 text-white">
 			<div class="bg-gray-600 p-8">
-				<div class="flex items-center gap-16 border-b border-white">
+				<div class="flex items-center gap-16 border-b border-white font-['Gurbani_Akhar']">
 					<div class="text-6xl">Lesson</div>
 					<div class="abbrev">n</div>
 				</div>
-				<div class="border-b border-white">
+				<div class="border-b border-white font-['Gurbani_Akhar']">
 					<div class="desc">Grammar</div>
 					<ol class="ml-4 list-decimal pl-4">
 						<li>Lorem, ipsum.</li>
