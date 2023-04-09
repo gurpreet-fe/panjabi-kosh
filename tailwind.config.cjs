@@ -8,7 +8,11 @@ module.exports = {
 		require('path').join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}'),
 	],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				'gurbani-akhar': '"Gurbani Akhar"',
+			},
+		},
 	},
 	plugins: [
 		// 3. Append the Skeleton plugin to the end of this list

@@ -1,5 +1,15 @@
+<script>
+	import SearchBar from '../../lib/components/Searchbar.svelte';
+</script>
+
+<div class="bg-surface-400">
+	<div class="container mx-auto py-5">
+		<SearchBar />
+	</div>
+</div>
+
 <div class="container mx-auto py-10">
-	<div class="flex gap-5">
+	<div class="flex flex-col gap-5 md:flex-row">
 		<div class="basis-3/4 text-white">
 			<div class="bg-gray-600 p-8">
 				<div class="flex items-center gap-16 border-b border-white font-['Gurbani_Akhar']">
