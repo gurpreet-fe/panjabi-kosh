@@ -1,12 +1,14 @@
 <script lang="ts">
 	import { AppShell } from '@skeletonlabs/skeleton';
-
 	import Header from '../lib/components/Header.svelte';
 
 	// Your selected Skeleton theme:
-	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
+	// import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
+	import '../lib/themes/theme-panjabi-kosh.postcss';
+
 	// This contains the bulk of Skeletons required styles:
 	import '@skeletonlabs/skeleton/styles/all.css';
+
 	// Finally, your application's global stylesheet (sometimes labeled 'app.css')
 	import '../app.postcss';
 </script>
