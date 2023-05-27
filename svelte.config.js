@@ -1,6 +1,5 @@
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-auto';
-// eslint-disable-next-line import/no-unresolved
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -13,7 +12,6 @@ const config = {
 			postcss: true,
 		}),
 	],
-
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
 		// If your environment is not supported or you settled on a specific environment, switch out the adapter.
